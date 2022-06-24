@@ -1,4 +1,4 @@
-# spring-petclinic
+# Spring Pet Clinic
 Opinionated webapp to learn Spring fundamentals, that displays basic RESTful conventions.
 
 ## Used Dependencies
