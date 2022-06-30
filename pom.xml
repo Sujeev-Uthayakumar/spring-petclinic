@@ -16,11 +16,11 @@
 		<developerConnection>
 			scm:git:git@github.com:Sujeev-Uthayakumar/spring-petclinic.git
 		</developerConnection>
-	  <tag>spring-petclinic-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<groupId>com.sujeevuthayakumar</groupId>
 	<artifactId>spring-petclinic</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>spring-petclinic</name>
 	<description>Pet Clinic Project</description>
 	<properties>
