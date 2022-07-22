@@ -1,7 +1,7 @@
-package com.sujeevuthayakumar.services.map;
+package com.sujeevuthayakumar.springpetclinic.services.map;
 
-import com.sujeevuthayakumar.model.Owner;
-import com.sujeevuthayakumar.services.OwnerService;
+import com.sujeevuthayakumar.springpetclinic.model.Owner;
+import com.sujeevuthayakumar.springpetclinic.services.OwnerService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

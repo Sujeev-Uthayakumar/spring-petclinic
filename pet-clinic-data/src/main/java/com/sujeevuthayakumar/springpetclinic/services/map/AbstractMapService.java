@@ -1,4 +1,4 @@
-package com.sujeevuthayakumar.services.map;
+package com.sujeevuthayakumar.springpetclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

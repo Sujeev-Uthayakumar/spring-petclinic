@@ -1,6 +1,6 @@
-package com.sujeevuthayakumar.services;
+package com.sujeevuthayakumar.springpetclinic.services;
 
-import com.sujeevuthayakumar.model.Pet;
+import com.sujeevuthayakumar.springpetclinic.model.Pet;
 
 public interface PetService extends CrudService<Pet, Long> {
 

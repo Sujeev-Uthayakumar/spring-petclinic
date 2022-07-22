@@ -1,4 +1,4 @@
-package com.sujeevuthayakumar.model;
+package com.sujeevuthayakumar.springpetclinic.model;
 
 public class PetType extends BaseEntity {
 

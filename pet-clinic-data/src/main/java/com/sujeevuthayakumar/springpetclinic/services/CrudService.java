@@ -1,4 +1,4 @@
-package com.sujeevuthayakumar.services;
+package com.sujeevuthayakumar.springpetclinic.services;
 
 import java.util.Set;
 
