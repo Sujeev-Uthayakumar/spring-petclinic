@@ -1,29 +1,31 @@
 package com.sujeevuthayakumar.services.map;
 
-import com.sujeevuthayakumar.model.Pet;
+import com.sujeevuthayakumar.model.Vet;
 import com.sujeevuthayakumar.services.CrudService;
-import com.sujeevuthayakumar.services.PetService;
+import com.sujeevuthayakumar.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
+@Service
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
-    public Set<Pet> findAll() {
+    public Set<Vet> findAll() {
         return super.findAll();
     }
 
     @Override
-    public Pet findById(Long id) {
+    public Vet findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public Pet save(Pet object) {
+    public Vet save(Vet object) {
         return super.save(object.getId(), object);
     }
 
     @Override
-    public void delete(Pet object) {
+    public void delete(Vet object) {
         super.delete(object);
     }
 
