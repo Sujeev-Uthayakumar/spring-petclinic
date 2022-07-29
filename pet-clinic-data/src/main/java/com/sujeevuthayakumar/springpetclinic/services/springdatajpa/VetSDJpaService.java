@@ -30,7 +30,6 @@ public class VetSDJpaService implements VetService {
     @Override
     public Vet findById(Long aLong) {
         Optional<Vet> optionalVet = vetRepository.findById(aLong);
-
         return optionalVet.orElse(null);
     }
 
